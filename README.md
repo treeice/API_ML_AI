@@ -2,7 +2,7 @@
 
 ## Product Requiremenets
 
-- | -
+-|-
 :- |:-
 **Target release** | 2018/11/30
 **Epic**| -
