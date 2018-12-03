@@ -2,15 +2,15 @@
 
 ## Product Requiremenets
 
- - | -
- |:- | :-|
- **Target release** | 2018/11/30
- **Epic**| -
- **Document status**| ```DRAFT```
- **Document owner** | [@L林树斌](https://www.github.com/treeice)
- **林Designer** | [@树斌](https://www.github.com/treeice) 
- **Developer** | -
- **QA** | -
+- | -
+:- |:-
+**Target release** | 2018/11/30
+**Epic**| -
+**Document status**| ```DRAFT```
+**Document owner** | [@L林树斌](https://www.github.com/treeice)
+**林Designer** | [@树斌](https://www.github.com/treeice) 
+**Developer** | -
+**QA** | -
 
 ## Goals
 解决大学生在本校图书馆看书的时刻需要分享个人评论的问题，为大学生在翻阅本校图书馆的图书的时候提供读书弹幕弹幕功能，满足用户在读书的某一时刻分享心得的需求。让用户记录阅读的过程种，那特定时刻所想所感，并分享发布，提供大学生提供本校的阅读评论分享浏览的互动平台。
