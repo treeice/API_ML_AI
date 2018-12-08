@@ -7,7 +7,7 @@
 **Target release** | 2018/11/30
 **Epic**| -
 **Document status**| ```DRAFT```
-**Document owner** | [@L林树斌](https://www.github.com/treeice)
+**Document owner** | [@林树斌](https://www.github.com/treeice)
 **林Designer** | [@树斌](https://www.github.com/treeice) 
 **Developer** | -
 **QA** | -
