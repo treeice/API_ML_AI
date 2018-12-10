@@ -186,7 +186,6 @@ Questions|Qutcome
 ## Not doing
 - 对于评论的进一步细化过滤体系,有待商榷
 - 部分图书封面设计新颖,使用各种不规则图形,超出OCR所能接受的文本格式,在扫描上可能准确度会比较低,或许有更好的书籍信息登记
-- 播放语音,尝试使用[百度云API-情感倾向分析](https://cloud.baidu.com/product/nlp/sentiment_classify)帮助用户,播放用户可能会感兴趣的评论
 
 
 ## Attachment
