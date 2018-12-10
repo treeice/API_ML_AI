@@ -168,7 +168,7 @@
 ![产品信息框架图](images/Information_Framework.png)
 
 ### 主要功能的简单原型页面
-![原型设计](images/simple-page.jpg)
+![原型设计](images/simple-page.png)
 
 
 ## Questions
@@ -193,7 +193,7 @@ Questions|Qutcome
 - [软件流程图](https://raw.githubusercontent.com/treeice/API_ML_AI/master/images/FLowchart.jpg)
 - [开发流程图](https://raw.githubusercontent.com/treeice/API_ML_AI/master/images/PRD01_Timeline.png)
 - [产品信息框架图](https://raw.githubusercontent.com/treeice/API_ML_AI/master/images/Information_Framework.png)
-- [原型图](https://raw.githubusercontent.com/treeice/API_ML_AI/master/images/simple-page.jpg )
+- [原型图](https://raw.githubusercontent.com/treeice/API_ML_AI/master/images/simple-page.png )
 
 
 
