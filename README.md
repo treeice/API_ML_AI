@@ -213,10 +213,10 @@ Questions|Qutcome
 ![开发流程](Images/PRD01_Timeline.png)
 
 ### Code
-![图片检测](Images/test-ocr.png）
+![图片检测-代码展示](Images/test-ocr.png)
 图片文本检测
 
-![文字转语音](Images/test-audio.png）
+![文字转语音-代码展示](Images/test-audio.png)
 文字转语音
 
 ### api评价
@@ -235,8 +235,8 @@ Questions|Qutcome
 - [软件流程图](https://raw.githubusercontent.com/treeice/API_ML_AI/master/Images/FLowchart.png)
 - [开发流程图](https://raw.githubusercontent.com/treeice/API_ML_AI/master/Images/PRD01_Timeline.png)
 - [产品信息框架图](https://raw.githubusercontent.com/treeice/API_ML_AI/master/Images/Information_Framework.png)
-- [图片检测](https://raw.githubusercontent.com/treeice/API_ML_AI/master/Images/test-ocr.png)
-- [文字转语音](https://raw.githubusercontent.com/treeice/API_ML_AI/master/Images/test-audio.png)
+- [图片检测-代码展示](https://raw.githubusercontent.com/treeice/API_ML_AI/master/Images/test-ocr.png)
+- [文字转语音-代码展示](https://raw.githubusercontent.com/treeice/API_ML_AI/master/Images/test-audio.png)
 - [产品原型文件](https://github.com/treeice/APPPrototype)
 
 
