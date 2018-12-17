@@ -153,7 +153,7 @@ Questions|Qutcome
         <td>看小说的人</td>
         <td>胡胡在周末独自一个人来到学校图书馆查看小说消遣，找到小说后，阅读小说的时候，由于情节的跌宕，情绪和心思一时此起彼伏，当下他想和他人分享此刻的紧张感和激动，他进入软件，打开手机，进入对应的书籍的对应页面，急匆匆留下评论“杨康居然偷袭刺伤了郭靖！！！”，看到了很多人留下了类似的评论,打开软件的播放评论功能,软件把通过筛选后的有意思的评论播放出来,小东听着评论，继续读书</td>
         <td><b><code>Importance</code></b></td>
-        <td>使用<a href="https://ai.aliyun.com/lvwang/text?spm=5176.8142029.artificialIntelligence.47.54216d3eQDorG9">阿里云API-文本风险内容识别</a>和<a href="https://cloud.baidu.com/product/ocr/general">百度云API-通用文字识别</a>过滤掉评论区中无价值和灌水的评论,让用户更快看到有兴趣的评论内容，帮助用户更快地参与用户的小说的评论流程，使用<a href="https://cloud.baidu.com/product/nlp/sentiment_classify">百度云API-文本情感分析技术</a>和<a href="https://cloud.baidu.com/product/speech/tts">百度云API-语音合成技术</a>,播放用户所感兴趣的评论和用户评论同个情绪的同类型的评论.要点是快速让用户在情绪的波动之中,登陆软件,找到图书,留下评论,应该着重优化用户的第2个流程的步骤.</td>
+        <td>使用<a href="https://ai.aliyun.com/lvwang/text?spm=5176.8142029.artificialIntelligence.47.54216d3eQDorG9">阿里云API-文本风险内容识别</a>过滤掉评论区中无价值和灌水的评论,让用户更好地看到有兴趣的评论内容，和使用<a href="https://cloud.baidu.com/product/ocr/general">百度云API-通用文字识别来</a>帮助用户更快地获取进入图书，参与用户的小说的评论流程，使用<a href="https://cloud.baidu.com/product/nlp/sentiment_classify">百度云API-文本情感分析技术</a>和<a href="https://cloud.baidu.com/product/speech/tts">百度云API-语音合成技术</a>,播放用户所感兴趣的评论和用户评论同个情绪的同类型的评论.要点是快速让用户在情绪的波动之中,登陆软件,找到图书,留下评论,应该着重优化用户拍照识别图书的流程.</td>
     </tr>
     <tr>
         <td><b>2</b></td>
