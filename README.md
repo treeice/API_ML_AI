@@ -212,12 +212,13 @@ Questions|Qutcome
 ## Time and Team
 ![开发流程](Images/PRD01_Timeline.png)
 
+
 ![图片检测](Images/test-ocr.png）
-> 图片文本检测
+图片文本检测
 
 
 ![文字转语音](Images/test-audio.png）
-> 文字转语音
+文字转语音
 
 ### api评价
 [百度AI平台自然语言处理API调用（情感分析案例）](https://blog.csdn.net/ChenVast/article/details/82682750)
