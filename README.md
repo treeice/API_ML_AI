@@ -9,7 +9,7 @@
     </tr>
         <tr>
         <td><b>Epic</b></td>
-        <td><a href="#Epic">评论页面</a></td>
+        <td><a href="#063">评论页面</a></td>
     </tr>    
     <tr>
         <td><b>Document status</b></td>
@@ -39,28 +39,28 @@
 
 
 ## Table of contents
-- [Produce Overview](#Produce-Overview)
-- [Background and strategic fit](#Background-and-strategic-fit)
-- [Questions](#Questions)
-- [Product goal & scope](#Product-goal-&-scope)
-- [Product Principle](#Product-Principle)
-- [Rwquirements](#Rwquirements) 
-- - [User Portrait](#User-Portrait)
-- - [context scenario](#context-scenarios)
-- - [Epic](#Epic)
-- - [User Story](#User-Story)
-- [User intercaion and design](#User-intercaion-and-design)
-- [Time and Team](#Time-and-Team)
-- [Not doing](#Not-doing)
-- [Attachment](#Attachment)
+- [Produce Overview](#01)
+- [Background and strategic fit](#02)
+- [Questions](#03)
+- [Product goal & scope](#04)
+- [Product Principle](#05)
+- [Rwquirements](#06) 
+- - [User Portrait](#061)
+- - [context scenario](#062)
+- - [Epic](#063)
+- - [User Story](#064)
+- [User intercaion and design](#07)
+- [Time and Team](#08)
+- [Not doing](#09)
+- [Attachment](#10)
 
-## Product Overview
+##  <a id="01">Product Overview</a>
 软件解决年轻人在独自阅读纸质书时缺乏评论交流的问题，提供对应书本的对应页面的评论功能，满足用户在阅读情景中对于书中的内容进行评论的需求，建立参与式阅读评论的平台。利用<a href="https://ai.aliyun.com/lvwang/text?spm=5176.8142029.artificialIntelligence.47.54216d3eQDorG9">阿里云API-文本风险内容识别</a>和<a href="https://cloud.baidu.com/product/ocr/general">百度云API-通用文字识别</a>，为用户过滤无价值与有害的内容，打造健康的和丰富的评论区，使用<a href="https://cloud.baidu.com/product/nlp/sentiment_classify">百度云API-文本情感分析技术</a>和<a href="https://cloud.baidu.com/product/speech/tts">百度云API-语音合成</a>，帮助用户筛选后听评论，优化用户阅读体验和提升产品的评论筛选效率。为用户带来参与式评论的陪伴互动体验
 
-## Background and strategic fit
+## <a id="02">Background and strategic fit</a>
 当前中国有孤独感的90后，且有阅读纸质书的市场巨大。脉脉数据研究院联合小猪短租发布2017年度职业数据白皮书《孤独经济》中提到了22-30岁的年龄段的人的孤独比例是60.8%。当当网与易观联合发布《2018 中国图书阅读市场专题分析报告》中指出在纸质图书阅读数据中 ,30 岁以下读者比例达到52.3%，当代年轻人的知识焦虑和孤独感的爆发，看书会是他们缓解压力和获取知识的主要手段之一，根据马斯洛需求原则的第三层社交需求，普遍的90后在衣食住行等方面没有问题，在社交上，年轻人总是难以找到陪伴和分享心事的场所，相较朋友圈的好友数量的泛滥导致发布的限制，微博的互动用户太过广泛，豆瓣和知乎等文艺青年和知识青年群体论坛社区,都不适合分享个人的即时性阅读评论
 
-## Questions
+## <a id="03">Questions</a>
 
 Questions|Qutcome
 -|-
@@ -69,7 +69,7 @@ Questions|Qutcome
 检测书本相应位置的照片，自主检测书本信息获取当前用户正在阅读的书本信息|辅助用户快速获取书籍信息，优化用户体验
 使用文本情感分析技术来分析用户在软件的评论信息|获取用户对于书本的喜好信息作为购书推广的广告投放标准
 
-## Product goal & scope
+## <a id="04">Product goal & scope</a>
 - 用户提交图书信息照片后，获取书籍信息的时长在1min以内
 - 用户在发布评论后，5s内看到自己的评论优先显示出来
 - 软件上线的一个月内，50%的初次使用软件的用户会在软件上记录他们的书籍并留下评论
@@ -81,13 +81,13 @@ Questions|Qutcome
 
 - 只提供书籍的评论，不提供书籍内容的阅读
 
-## Product Principle
+## <a id="05">Product Principle</a>
 - 平静技术互动原则
 - 安静，干净
 
-## Rwquirements
+## <a id="06">Rwquirements</a>
 
-### User Portrait
+### <a id="061">User Portrait</a>
 
 <table>
 <tr>
@@ -139,7 +139,7 @@ Questions|Qutcome
 </tr>
 </table>
 
-### context scenario
+### <a id="062">context scenario</a>
 <table>
     <tr>
       <th width="2%">&nbsp;</th>
@@ -178,11 +178,11 @@ Questions|Qutcome
     </tr>
 </table>
 
-### Epic
+### <a id="063">Epic</a>
 #### Epic:评论页面
 胡胡一边看书，遇到剧情紧张的时候，在评论页面留下了紧张的评论内容，查看了其他用户都在预测下一页面会发生什么情节的评论，对各种奇思妙想，剧情推理，知识科普进行点赞，收藏了其他用户的神展开的补充评论，和同个页面的评论按照时间倒叙进行评论回复后,打开评论播放,听其他用户的评论内容.
 
-### User Story
+### <a id="064">User Story</a>
 1. 作为胡胡，我想要在书中对应页面和同时在看这本书和同个页面看书的用户进行<b>评论</b>
 2. 作为胡胡，我想要<b>时间倒叙查看</b>所有用户的评论
 3. 作为胡胡，我想知道大家在看这页面时候主要说了什么，<b>热门评论</b>是什么
@@ -191,7 +191,7 @@ Questions|Qutcome
 5. 作为胡胡，我想<b>标记、分辨</b>评论中的科普知识
 
 
-## User intercaion and design
+## <a id="07">User intercaion and design</a>
 
 - **输入**：图书封面（*OCR扫描技术*），文字评论（文本过滤）
 
@@ -209,7 +209,7 @@ Questions|Qutcome
 
 
 
-## Time and Team
+## <a id="08">Time and Team</a>
 ![开发流程](Images/PRD01_Timeline.png)
 
 ### Code
@@ -223,7 +223,7 @@ Questions|Qutcome
 [百度AI平台自然语言处理API调用（情感分析案例）](https://blog.csdn.net/ChenVast/article/details/82682750)
 > 百度的NLP API还是挺好用的
 
-## Not doing
+## <a id="09">Not doing</a>
 - 对于评论的进一步细化过滤体系,有待商榷
 - 评论的情感分析规则,有待商榷
 - 部分图书封面设计新颖,使用各种不规则图形,超出OCR所能接受的文本格式,在扫描上可能准确度会比较低,或许有更好的书籍信息登记
@@ -231,7 +231,7 @@ Questions|Qutcome
 - 设置快速文本填充
 
 
-## Attachment
+## <a id="10">Attachment</a>
 - [软件流程图](https://raw.githubusercontent.com/treeice/API_ML_AI/master/Images/FLowchart.png)
 - [开发流程图](https://raw.githubusercontent.com/treeice/API_ML_AI/master/Images/PRD01_Timeline.png)
 - [产品信息框架图](https://raw.githubusercontent.com/treeice/API_ML_AI/master/Images/Information_Framework.png)
