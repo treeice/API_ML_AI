@@ -55,10 +55,13 @@
 - [Attachment](#10)
 
 ##  <a id="01">Product Overview</a>
-软件解决年轻人在独自阅读纸质书时缺乏评论交流的问题，提供对应书本的对应页面的评论功能，满足用户在阅读情景中对于书中的内容进行评论的需求，建立参与式阅读评论的平台。利用<a href="https://ai.aliyun.com/lvwang/text?spm=5176.8142029.artificialIntelligence.47.54216d3eQDorG9">阿里云API-文本风险内容识别</a>和<a href="https://cloud.baidu.com/product/ocr/general">百度云API-通用文字识别</a>，为用户过滤无价值与有害的内容，打造健康的和丰富的评论区，使用<a href="https://cloud.baidu.com/product/nlp/sentiment_classify">百度云API-文本情感分析技术</a>和<a href="https://cloud.baidu.com/product/speech/tts">百度云API-语音合成</a>，帮助用户筛选后听评论，优化用户阅读体验和提升产品的评论筛选效率。为用户带来参与式评论的陪伴互动体验
+软件解决用户在独自阅读纸质书时缺乏评论交流的问题，提供对应书本的对应页面的评论功能，满足用户在个人阅读情景中对于书中的内容进行评论的需求，建立参与式阅读评论的平台。利用<a href="https://ai.aliyun.com/lvwang/text?spm=5176.8142029.artificialIntelligence.47.54216d3eQDorG9">阿里云API-文本风险内容识别</a>和<a href="https://cloud.baidu.com/product/ocr/general">百度云API-通用文字识别</a>，为用户过滤无价值与有害的内容，打造健康的和丰富的评论区内容，使用<a href="https://cloud.baidu.com/product/nlp/sentiment_classify">百度云API-文本情感分析技术</a>和<a href="https://cloud.baidu.com/product/speech/tts">百度云API-语音合成</a>，帮助用户筛选后听评论，优化用户阅读体验和提升产品的评论筛选效率。为用户带来参与式评论的陪伴互动体验
 
 ## <a id="02">Background and strategic fit</a>
-当前中国有孤独感的90后，且有阅读纸质书的市场巨大。脉脉数据研究院联合小猪短租发布2017年度职业数据白皮书《孤独经济》中提到了22-30岁的年龄段的人的孤独比例是60.8%。当当网与易观联合发布《2018 中国图书阅读市场专题分析报告》中指出在纸质图书阅读数据中 ,30 岁以下读者比例达到52.3%，当代年轻人的知识焦虑和孤独感的爆发，看书会是他们缓解压力和获取知识的主要手段之一，根据马斯洛需求原则的第三层社交需求，普遍的90后在衣食住行等方面没有问题，在社交上，年轻人总是难以找到陪伴和分享心事的场所，相较朋友圈的好友数量的泛滥导致发布的限制，微博的互动用户太过广泛，豆瓣和知乎等文艺青年和知识青年群体论坛社区,都不适合分享个人的即时性阅读评论
+当前中国阅读纸质书的且有孤独感的90后,人数多,市场巨大。脉脉数据研究院联合小猪短租发布2017年度职业数据白皮书《孤独经济》中提到了22-30岁的年龄段的人的孤独比例是60.8%。当当网与易观联合发布《2018 中国图书阅读市场专题分析报告》中指出在纸质图书阅读数据中 ,30 岁以下读者比例达到52.3%，当代年轻人的知识焦虑和孤独感的爆发，看书阅读是他们缓解压力和获取知识的主要手段之一.根据马斯洛需求原则的第三层社交需求，普遍的90后在衣食住行等方面没有问题，在社交上，年轻人总是难以找到陪伴和分享心事的场所，相较朋友圈的好友数量的泛滥导致发布的限制，微博的互动用户太过广泛,找不到同一话题的人，豆瓣和知乎等文艺青年和知识青年群体论坛社区,都不适合分享个人的即时性阅读评论.
+
+
+
 
 ## <a id="03">Questions</a>
 
@@ -66,8 +69,8 @@ Questions|Qutcome
 -|-
 提供经过“垃圾文本处理后干净健康”的用户阅读书籍的评论|帮助读者用户更好获取评论内容
 使用语音合成,播放用户可能感兴趣的评论语音播放|解决用户在阅读情景中无法同时看书与看评论的问题
-检测书本相应位置的照片，自主检测书本信息获取当前用户正在阅读的书本信息|辅助用户快速获取书籍信息，优化用户体验
-使用文本情感分析技术来分析用户在软件的评论信息|获取用户对于书本的喜好信息作为购书推广的广告投放标准
+检测书本相应位置的照片，自主检测书本信息获取当前用户正在阅读的书本信息|辅助用户快速获取书籍信息，优化用户体验流程
+使用文本情感分析技术来分析用户在软件的评论信息|获取用户对于书本的喜好信息,播放用户喜欢的评论
 
 ## <a id="04">Product goal & scope</a>
 - 用户提交图书信息照片后，获取书籍信息的时长在1min以内
@@ -219,16 +222,20 @@ Questions|Qutcome
 ![文字转语音-代码展示](Images/test-audio.png)
 文字转语音
 
-### api评价
-[百度AI平台自然语言处理API调用（情感分析案例）](https://blog.csdn.net/ChenVast/article/details/82682750)
-> 百度的NLP API还是挺好用的
+### API评价
+1.  百度的NLP API还是挺好用的 -- [百度AI平台自然语言处理API调用（情感分析案例）](https://blog.csdn.net/ChenVast/article/details/82682750)  
+2. 在多个垂类上（汽车、餐饮、酒店等）情感倾向性分析准确率达到95%以上，已应用于实际产品中 -- [百度AI平台自然语言处理自我评价](https://cloud.baidu.com/product/nlp/sentiment_classify)
+3. 情感分析上,抓取了豆瓣五本小说的评论(共50条)进行百度云-文本情感倾向(本人)人工测试,判断结果一致的有90%,普通用户的QPS为5,提升QPS需要另外申请,文本数据多的时候,会较慢 --[抓取豆瓣某书评进行百度云-情感分析测试](https://github.com/treeice/APPPrototype/blob/master/抓取豆瓣某书评进行百度云-情感分析测试.ipynb)
+4. 百度云在自然语言分析上,每日配额无限制,文本审核为10000次/天免费,远远低于[阿里云的文本分析功能的限额](https://common-buy.aliyun.com/?spm=5176.8050869.0.0.ea2a2c88VAd3v5&commodityCode=cdibag#/buy),在新软件上线之初,资金是一个重要考虑因素
+5. 百度云的语音合成功能-也是每日无限额,能准确播放对应文字
+6. 百度云的文本反垃圾机制,使用SDk运行时,返回代码未写明审核不过的原因,[网页](http://ai.baidu.com/tech/textcensoring)上测试时,网页有提示什么原因的问题
 
 ## <a id="09">Not doing</a>
 - 对于评论的进一步细化过滤体系,有待商榷
 - 评论的情感分析规则,有待商榷
-- 部分图书封面设计新颖,使用各种不规则图形,超出OCR所能接受的文本格式,在扫描上可能准确度会比较低,或许有更好的书籍信息登记
-- 补充书单的内容
-- 设置快速文本填充
+- 用户的平看书习惯,评论的口味数据收集,依据用户过滤,为用户进行推荐
+- 收集用户评价信息,设置系统的快速文本填充,帮助在于用户快速发表评论
+- 书籍的评论和评论之间加入链接,页码和页码之间进行打通
 
 
 ## <a id="10">Attachment</a>
@@ -237,9 +244,9 @@ Questions|Qutcome
 - [产品信息框架图](https://raw.githubusercontent.com/treeice/API_ML_AI/master/Images/Information_Framework.png)
 - [图片检测-代码展示](https://raw.githubusercontent.com/treeice/API_ML_AI/master/Images/test-ocr.png)
 - [文字转语音-代码展示](https://raw.githubusercontent.com/treeice/API_ML_AI/master/Images/test-audio.png)
-- [产品原型文件](https://github.com/treeice/APPPrototype)
-
-
+- [产品原型导出的HTML文件](https://github.com/treeice/APPPrototype)
+- [图片识别_文本情感分析_语音合成_输入输出文档](https://github.com/treeice/APPPrototype/blob/master/图片识别_文本情感分析_语音合成_输入输出文档.ipynb)
+- [抓取豆瓣某书评进行百度云-情感分析测试_文档](https://github.com/treeice/APPPrototype/blob/master/抓取豆瓣某书评进行百度云-情感分析测试.ipynb)
 
 
 
