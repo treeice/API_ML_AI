@@ -245,8 +245,8 @@ Questions|Qutcome
 - [图片检测-代码展示](https://raw.githubusercontent.com/treeice/API_ML_AI/master/Images/test-ocr.png)
 - [文字转语音-代码展示](https://raw.githubusercontent.com/treeice/API_ML_AI/master/Images/test-audio.png)
 - [产品原型导出的HTML文件](https://github.com/treeice/APPPrototype)
-- [图片识别_文本情感分析_语音合成_输入输出文档](https://github.com/treeice/APPPrototype/blob/master/code/图片识别_文本情感分析_语音合成_输入输出文档.ipynb)
-- [抓取豆瓣某书评进行百度云-情感分析测试_文档](https://github.com/treeice/APPPrototype/blob/master/code/抓取豆瓣某书评进行百度云-情感分析测试.ipynb)
+- [图片识别_文本情感分析_语音合成_输入输出文档](https://github.com/treeice/API_ML_AI/blob/master/code/图片识别_文本情感分析_语音合成_输入输出文档.ipynb)
+- [抓取豆瓣某书评进行百度云-情感分析测试_文档](https://github.com/treeice/API_ML_AI/blob/master/code/抓取豆瓣某书评进行百度云-情感分析测试.ipynb)
 
 
 
