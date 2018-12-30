@@ -287,7 +287,7 @@ Questions|Qutcome
 - [图片检测-代码图片](https://raw.githubusercontent.com/treeice/API_ML_AI/master/Images/test-ocr.png)
 - [文本审核-代码图片](https://raw.githubusercontent.com/treeice/API_ML_AI/master/Images/test_text.png)
 - [产品原型导出的HTML文件](https://github.com/treeice/APPPrototype)
-- [代码_图片识别_文本情感倾向分析_ipynb文档](https://github.com/treeice/API_ML_AI/blob/master/code/图片识别_文本倾向情感分析_输入输出测试文档.ipynb.ipynb)
+- [代码_图片识别_文本情感倾向分析_ipynb文档](https://github.com/treeice/API_ML_AI/blob/master/code/图片识别_文本情感倾向分析_输入输出测试文档.ipynb)
 - [抓取豆瓣某书评进行百度云-情感倾向分析测试_ipynb文档](https://github.com/treeice/API_ML_AI/blob/master/code/抓取豆瓣某书评进行百度云-情感分析测试.ipynb)
 - [代码文档_百度云_文本审核_ipynb文档](https://github.com/treeice/API_ML_AI/blob/master/code/百度云_文本审核_测试.ipynb)
 
